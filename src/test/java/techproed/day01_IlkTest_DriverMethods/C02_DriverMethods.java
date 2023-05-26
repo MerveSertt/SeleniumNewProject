@@ -22,6 +22,8 @@ public class C02_DriverMethods {
         //System.out.println("Techproed Kaynak Kodları: "+driver.getPageSource());//Açılan sayfanın kaynak kodlarını verir. Çok uzun olduğu için yorum satırına alındı
 
         System.out.println("Techproed Window Handle Değeri: "+driver.getWindowHandle());//Gidilen sayfanın handle değerini(hashKod) verir. Bu handle değerini sayfalar arası geçiş için kullanırız.
+        //WindowHandles da aynı görevi görür.
+
 
     }
 }
