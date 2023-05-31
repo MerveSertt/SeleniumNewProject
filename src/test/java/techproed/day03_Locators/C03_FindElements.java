@@ -1,6 +1,7 @@
 package techproed.day03_Locators;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -56,12 +57,17 @@ public class C03_FindElements {
 
     /*
             ODEV
-       Amazon sayfasına gin
+       Amazon sayfasına git
        iphone aratın
        çıkan sonuç yazısını konsola yazdırınız
-       çıkan ürünlerden il 5 tanesine tıklayıp sayfa başlıklarını yazdırınız.
+       çıkan ürünlerden ilk 5 tanesine tıklayıp sayfa başlıklarını yazdırınız.
 
      */
+
+        driver.get("https://www.amazon.com");
+
+        driver.findElement(By.xpath("(//div[@class='nav-search-field '])[1]")).sendKeys("iphone", Keys.ENTER);
+
 
 
 
