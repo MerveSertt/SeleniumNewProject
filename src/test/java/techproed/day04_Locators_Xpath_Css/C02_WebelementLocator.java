@@ -24,7 +24,7 @@ public class C02_WebelementLocator {
 
         // sonuc yazısını yazdırın
         // (amazon sayfasındaki sonuç yazısını incele deyip class name kopyaladık.
-        // Fakat unique değil aynı class name'den 100 kusur var. Bu sebeple findElements kullandık. FindElement list döndürür.)
+        // Fakat unique değil aynı class name'den 100 kusur var. Bu sebeple findElements kullandık. FindElements list döndürür.)
         List<WebElement> sonucYazisi = driver.findElements(By.className("sg-col-inner"));
         System.out.println(sonucYazisi.get(0).getText());//1-16 of 158 results for "city bike"
 

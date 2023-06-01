@@ -64,13 +64,6 @@ public class C03_FindElements {
 
      */
 
-        driver.get("https://www.amazon.com");
-
-        driver.findElement(By.xpath("(//div[@class='nav-search-field '])[1]")).sendKeys("iphone", Keys.ENTER);
-
-
-
-
 
 
 
